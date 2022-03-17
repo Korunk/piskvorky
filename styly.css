@@ -1,5 +1,6 @@
 body {
-  background-image: linear-gradient(rgb(152, 75, 240) 70%, white);
+  background-image: linear-gradient(rgb(113, 62, 233) 70%, rgb(247, 216, 247));
+  box-sizing: border-box;
 }
 h1 {
   font-family: 'Lobster', cursive;
@@ -10,7 +11,24 @@ p {
   color: white;
 }
 .box-color {
+  background-color: rgb(31, 30, 30);
+  margin: 0;
+}
+.rules-button {
+  background-color: rgb(24, 223, 223);
+}
+
+.game-button {
+  background-color: rgba(15, 161, 230, 0.829);
+}
+
+img {
+  margin: 0;
+}
+
+.box {
   width: 500px;
   height: 250px;
-  background-color: rgb(31, 30, 30);
+  display: flex;
+  flex-direction: column;
 }
