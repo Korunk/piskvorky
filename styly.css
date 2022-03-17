@@ -1,0 +1,16 @@
+body {
+  background-image: linear-gradient(rgb(152, 75, 240) 70%, white);
+}
+h1 {
+  font-family: 'Lobster', cursive;
+  color: white;
+}
+p {
+  font-family: 'Spline Sans', sans-serif;
+  color: white;
+}
+.box-color {
+  width: 500px;
+  height: 250px;
+  background-color: rgb(31, 30, 30);
+}
