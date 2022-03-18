@@ -1,6 +1,5 @@
 body {
   background-image: linear-gradient(#615dad 50%, #ffc8da);
-  box-sizing: border-box;
 }
 h1 {
   font-family: 'Lobster', cursive;
@@ -9,6 +8,7 @@ h1 {
 p {
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
+  padding: 10px;
 }
 .box-color {
   background-color: #283e50;
@@ -22,14 +22,21 @@ p {
 .game-button {
   background-color: #0197f6;
 }
+button {
+  width: 270px;
+  height: 40px;
+  color: #ffffff;
+  border: 0;
+}
 
 img {
   margin: 0;
 }
 
 .box {
-  width: 500px;
-  height: 250px;
+  width: 270px;
+  height: 500px;
   display: flex;
   flex-direction: column;
+  align-self: baseline;
 }
