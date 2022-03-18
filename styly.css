@@ -1,5 +1,7 @@
 body {
-  background-image: linear-gradient(#615dad 50%, #ffc8da);
+  background: linear-gradient(#615dad, #ffc8da);
+  position: relative;
+  left: 50%;
 }
 h1 {
   font-family: 'Lobster', cursive;
@@ -15,11 +17,11 @@ p {
   margin: 0;
   text-align: center;
 }
-.rules-button {
+.rules {
   background-color: #1fcca4;
 }
 
-.game-button {
+.game {
   background-color: #0197f6;
 }
 button {
