@@ -1,7 +1,10 @@
 body {
   background: linear-gradient(#615dad, #ffc8da);
+  box-sizing: border-box;
   position: relative;
   left: 50%;
+  margin-bottom: 450px;
+  margin-top: 50px;
 }
 h1 {
   font-family: 'Lobster', cursive;
