@@ -14,15 +14,20 @@ p {
 }
 .box-color {
   background-color: #283e50;
-  margin: 0;
   text-align: center;
 }
 .rules {
   background-color: #1fcca4;
 }
-
+.rules:hover {
+  background-color: #1cbb96;
+}
 .game {
   background-color: #0197f6;
+}
+
+.game:hover {
+  background-color: #0090e9;
 }
 button {
   width: 270px;
@@ -37,8 +42,6 @@ img {
 
 .box {
   width: 270px;
-  height: 500px;
   display: flex;
   flex-direction: column;
-  align-self: baseline;
 }
