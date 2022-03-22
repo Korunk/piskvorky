@@ -1,11 +1,10 @@
 body {
-  background: linear-gradient(#615dad, #ffc8da);
   box-sizing: border-box;
   position: relative;
   left: 50%;
-  margin-bottom: 450px;
-  margin-top: 50px;
-  background-repeat: no-repeat;
+  margin: 100px;
+  background: linear-gradient(#615dad, #ffc8da);
+  background-attachment: fixed;
 }
 h1 {
   font-family: 'Lobster', cursive;
@@ -22,22 +21,29 @@ p {
 }
 .rules {
   background-color: #1fcca4;
+  text-decoration: none;
 }
 .rules:hover {
   background-color: #1cbb96;
 }
 .game {
   background-color: #0197f6;
+  text-decoration: none;
 }
 
 .game:hover {
   background-color: #0090e9;
 }
-button {
+.game,
+.rules {
   width: 270px;
   height: 40px;
   color: #ffffff;
   border: 0;
+  text-align: center;
+  line-height: 2.5;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
 }
 
 img {
