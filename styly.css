@@ -65,84 +65,74 @@ p {
 }
 /*--------------------------------*/
 
-.bullets {
-  background-color: #283e50;
-  color: #ffffff;
-  padding: 0;
-  border-radius: 5px 5px 0 0;
-  width: 350px;
+.body-rules {
   display: flex;
-  flex-direction: column;
-  margin: auto;
-  margin-top: 40px;
-}
-li {
-  margin: 20px;
-  text-align: left;
-}
-.box-picture {
-  background-color: #283e50;
-}
-.rules-clik {
-  background-color: #1fcca4;
-  text-decoration: none;
-}
-.rules-clik:hover {
-  background-color: #1cbb96;
-}
-.game-clik {
-  background-color: #0197f6;
-  text-decoration: none;
+  justify-content: space-around;
+  left: 0;
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 60px;
 }
 
-.game-clik:hover {
-  background-color: #0090e9;
+.box-point {
+  background-color: #283e50;
+  padding: 0;
+  border-radius: 5px 5px 0 0;
+  /*width: 700px;*/
+}
+.bullets-number {
+  font-family: 'Roboto', sans-serif;
+  font-size: small;
+  color: #ffffff;
+  padding: 10px;
+  text-align: baseline;
+}
+.bullets {
+  margin: 30px;
+}
+li {
+  padding: 5px;
+}
+
+.picture {
+  width: 400px;
+  max-width: 100%;
 }
 .game-clik,
 .rules-clik {
   width: 100%;
   height: 40px;
   color: #ffffff;
-  border: 0;
-  line-height: 2.5;
+  margin: solid 0;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
 }
-
-figure {
-  padding: 5px;
-  margin: auto;
-  width: 100%;
-}
-
 figcaption {
-  font-family: 'Roboto', sans-serif;
-  margin: 4px 20px 40px 20px;
+  color: #ffffff;
+  padding: 5px;
   text-align: center;
-  font-size: 12px;
-  line-height: 1;
 }
-.picture {
-  width: 320px;
+figure {
+  font-family: 'Roboto', sans-serif;
+  font-size: small;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  inline-size: 100%;
+  overflow-wrap: break-word;
+}
+.clik {
+  line-height: 2.5;
+  width: 100%;
+  height: 40px;
+  /*display: flex;*/
 }
 
 .circle,
 .cross {
-  width: 1em;
   height: 1em;
   filter: invert(100%);
-}
-
-@media (min-width: 500px) {
-  .bullets {
-    width: 800px;
-  }
-
-  .box-picture {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  figure {
-    width: 300px;
-  }
 }
