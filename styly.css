@@ -217,6 +217,7 @@ button {
   border: solid 1px black;
   background: #cbbcdc;
   margin: 0;
+  cursor: pointer;
 }
 button:hover {
   background: #dacfe8;
