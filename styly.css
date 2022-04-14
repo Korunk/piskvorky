@@ -37,6 +37,7 @@ p {
 .game {
   background-color: #0197f6;
   text-decoration: none;
+  border-top: 1px solid #283e50;
 }
 
 .game:hover {
@@ -48,7 +49,6 @@ p {
   width: 100%;
   height: 40px;
   color: #ffffff;
-  border: 0;
   text-align: center;
   line-height: 2.5;
   font-family: 'Open Sans', sans-serif;
@@ -57,6 +57,7 @@ p {
 .cloverleaf {
   margin: 0;
   border-radius: 5px 5px 0 0;
+  height: 200px;
 }
 .box {
   width: 270px;
@@ -93,6 +94,7 @@ li {
 .game-clik {
   background-color: #0197f6;
   text-decoration: none;
+  border-top: 1px solid #283e50;
 }
 
 .game-clik:hover {
@@ -103,7 +105,6 @@ li {
   width: 100%;
   height: 40px;
   color: #ffffff;
-  border: 0;
   line-height: 2.5;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -121,19 +122,21 @@ figcaption {
   text-align: center;
   font-size: 12px;
   line-height: 1;
+  height: 10px;
 }
 .picture {
   width: 320px;
 }
 
 .circle,
-.cross {
+.cross,
+#circle {
   width: 1em;
   height: 1em;
   filter: invert(100%);
 }
 
-@media (min-width: 500px) {
+@media (min-width: 730px) {
   .bullets {
     width: 800px;
   }
@@ -143,6 +146,81 @@ figcaption {
     flex-wrap: wrap;
   }
   figure {
-    width: 300px;
+    width: 350px;
   }
+}
+/*-----------------------------------*/
+.title {
+  font-size: 70px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.box-game {
+  max-width: 80vmin;
+}
+.baner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  align-items: center;
+  height: 40px;
+}
+.home-page {
+  background-color: #1fcca4;
+  border-radius: 3px;
+  margin-right: 8px;
+  padding: 8px;
+}
+
+.home-page:hover {
+  background-color: #1cbb96;
+}
+
+.restart {
+  background-color: #0197f6;
+  padding: 8px;
+  border-radius: 3px;
+}
+.restart:hover {
+  background-color: #0090e9;
+}
+.play {
+  display: flex;
+  align-items: center;
+}
+.players {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+}
+#circle {
+  width: 22px;
+  height: 22px;
+  margin-top: 3px;
+  margin-left: 3px;
+  margin-bottom: 3px;
+}
+.box-play {
+  display: flex;
+  align-items: center;
+}
+
+.box-button {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 90vmin;
+}
+button {
+  width: 10%;
+  aspect-ratio: 1 / 1;
+  border: solid 1px black;
+  background: #cbbcdc;
+}
+button:hover {
+  background: #dacfe8;
+}
+
+button:focus {
+  background: #dacfe8;
 }
