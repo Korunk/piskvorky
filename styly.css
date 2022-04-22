@@ -204,12 +204,12 @@ figcaption {
 
 .add-cross {
   background-image: url('img/cross.svg');
-  background-size: 24px;
+  background-size: 70%;
   transition: background-size 0.15s;
 }
 .add-circle {
   background-image: url('img/circle.svg');
-  background-size: 24px;
+  background-size: 70%;
   transition: background-size 0.15s;
 }
 .box-play {
@@ -227,10 +227,9 @@ button {
   width: 10%;
   aspect-ratio: 1 / 1;
   border: solid 1px black;
-  background: #cbbcdc;
+  background-color: #cbbcdc;
   margin: 0;
   cursor: pointer;
-  margin: auto;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 1px;
@@ -240,5 +239,5 @@ button:hover {
   border-radius: 5px;
 }
 button:focus {
-  background: #dacfe8;
+  background-color: #dacfe8;
 }
