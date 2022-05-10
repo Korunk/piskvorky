@@ -202,12 +202,12 @@ figcaption {
   margin-bottom: 3px;
 }
 
-.add-cross {
+.add__cross {
   background-image: url('img/cross.svg');
   background-size: 70%;
   transition: background-size 0.15s;
 }
-.add-circle {
+.add__circle {
   background-image: url('img/circle.svg');
   background-size: 70%;
   transition: background-size 0.15s;
